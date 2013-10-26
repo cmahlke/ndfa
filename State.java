@@ -1,16 +1,5 @@
 package Project;
 
-/**
- * File: State.java
- * 
- * Name: Chris Mahlke
- * 
- * Description: If the character is at the head of the input string,
- * character_transition is taken. If character is '?', any character at the head
- * of the input string is matched. But if character is '#', then
- * character_transition is a (second) empty string transition. If the
- * character_transition is null, it is unused.
- */
 public class State {
 	public char character;
 	public State character_transition;
